@@ -1,0 +1,62 @@
+{
+  "total_samples": 50059,
+  "num_features": 460,
+  "lookback_window": 20,
+  "num_base_features": 23,
+  "num_tickers": 25,
+  "ticker_list": [
+    "ACB",
+    "BID",
+    "BSR",
+    "CTG",
+    "FPT",
+    "GAS",
+    "GVR",
+    "HDB",
+    "HPG",
+    "LPB",
+    "MBB",
+    "MSN",
+    "MWG",
+    "SAB",
+    "SHB",
+    "SSI",
+    "STB",
+    "TCB",
+    "VCB",
+    "VHM",
+    "VIC",
+    "VJC",
+    "VNM",
+    "VPB",
+    "VRE"
+  ],
+  "start_date": "2018-06-18",
+  "end_date": "2026-06-25",
+  "samples_per_horizon": {
+    "T+1": {
+      "valid_samples": 50034,
+      "nan_edge_samples": 25,
+      "class_1_increase": 23075,
+      "class_0_non_increase": 26959,
+      "positive_ratio_pct": 46.12,
+      "mean_future_log_return": 0.00048
+    },
+    "T+3": {
+      "valid_samples": 49984,
+      "nan_edge_samples": 75,
+      "class_1_increase": 24885,
+      "class_0_non_increase": 25099,
+      "positive_ratio_pct": 49.79,
+      "mean_future_log_return": 0.00146
+    },
+    "T+5": {
+      "valid_samples": 49934,
+      "nan_edge_samples": 125,
+      "class_1_increase": 25271,
+      "class_0_non_increase": 24663,
+      "positive_ratio_pct": 50.61,
+      "mean_future_log_return": 0.002429
+    }
+  }
+}
