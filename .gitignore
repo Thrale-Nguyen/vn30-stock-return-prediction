@@ -22,7 +22,7 @@ nhật ký làm việc.md
 .quarto/
 
 # Bỏ qua Skill cài sẵn
-.agent/
+.agents/
 
 # C extensions
 *.so
