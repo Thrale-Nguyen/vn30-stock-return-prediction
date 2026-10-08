@@ -58,5 +58,17 @@
       "positive_ratio_pct": 50.61,
       "mean_future_log_return": 0.002429
     }
+  },
+  "calendar_continuity": {
+    "max_allowed_span_days": 40,
+    "continuous_samples": 50030,
+    "irregular_samples": 29,
+    "continuity_ratio_pct": 99.94,
+    "span_days_min": 25,
+    "span_days_mean": 27.81,
+    "span_days_median": 27,
+    "span_days_max": 47,
+    "spans_above_35_days": 45,
+    "spans_above_40_days": 29
   }
 }
